@@ -4,7 +4,7 @@
 const buttons = document.querySelectorAll('button')
 buttons.forEach(btn => btn.addEventListener('click', ()=>{
     
-const add = parseInt(btn.getAttribute('data-plus'), 10) || 1
+const add = parseInt(btn.getAttribute('data-plus'), 10) || 0
     
 //   console.log(add)
   const container = btn.closest('#score-board').querySelector('.score-area .score-value');
@@ -12,7 +12,7 @@ const add = parseInt(btn.getAttribute('data-plus'), 10) || 1
   if(!container)return
 //   console.log(container.textContent)
   
-  container.textContent = (parseInt(container.textContent, 10) || 1) + add
+  container.textContent = (parseInt(container.textContent, 10) || 0) + add
    
 }))
 
