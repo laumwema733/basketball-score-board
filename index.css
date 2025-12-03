@@ -24,8 +24,6 @@ body {
 }
 
 .container {
-   
-  
     background-color: rgba(27, 36, 74, 1);
    max-width: 80%;
 }
@@ -96,4 +94,15 @@ h3{
      border: 2px solid #fff;
      border-radius: 5px;
      cursor: pointer;
+}
+
+
+@media (max-width: 520px) {
+    .container{
+        width: 100%;
+    }
+    .app{
+        width: 100%;
+        padding: 0;
+    }
 }
