@@ -7,7 +7,7 @@ resetBtn.addEventListener('click', ()=>{
     scoreValues.forEach(sv => sv.textContent = '0')
 })
 
-const buttons = document.querySelectorAll('button')
+const buttons = document.querySelectorAll('.app button')
 buttons.forEach(btn => btn.addEventListener('click', ()=>{
     
   // find the data-plus attribute value
@@ -23,7 +23,7 @@ if(!board){
 }
 
 
-  const container = board.querySelector('.score-area .score-value');
+  const container = board?.querySelector('.score-area .score-value');
   // console.log(container)
   if(!container)return
 //   console.log(container.textContent)
