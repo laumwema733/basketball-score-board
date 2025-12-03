@@ -84,7 +84,7 @@ h3{
     display: flex;
     gap: 1rem;
 }
-#reset-btn{
+ #reset-btn{
     padding: .8rem 1.8rem;
     font-size: 1.8rem;
      font-family: 'CursedTimer',sans-serif;
