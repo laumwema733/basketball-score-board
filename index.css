@@ -24,14 +24,18 @@ body {
 }
 
 .container {
-    display: flex;
+   
+  
+    background-color: rgba(27, 36, 74, 1);
+   max-width: 80%;
+}
+.app{
+   display: flex;
     justify-content: space-around;
     width: 60rem;
     background-color: rgba(27, 36, 74, 1);
     padding: 6.8rem 0;
-    
 }
-
 
 .home, .guest{
     display: flex;
@@ -61,7 +65,7 @@ h3{
     justify-content: center;
     margin: 0 2rem;
 }
-button {
+.app button {
     display: inline-block;
     color: rgba(154, 171, 216, 1);
     font-size: 1.8rem;
@@ -77,4 +81,14 @@ button {
 .score-btn{
     display: flex;
     gap: 1rem;
+}
+#reset-btn{
+    padding: .8rem 1.8rem;
+    font-size: 1.8rem;
+     font-family: 'CursedTimer',sans-serif;
+     background-color: rgba(249, 79, 109, 1);
+     margin: 1rem;
+     color: #fff;
+     font-weight: 700;
+     text-shadow: 0 0 2px #000;
 }
